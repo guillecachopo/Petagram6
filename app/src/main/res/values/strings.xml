@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="title_activity_favoritos">Favoritos</string>
+    <string name="action_view_favoritos">Favoritos</string>
+    <string name="floating_action_button_message">Próximamente</string>
+    <string name="snackbar_message">Acción SnackBar</string>
+    <string name="snackbar_action">Aceptar</string>
+
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="menu_configurar_cuenta">Configurar Cuenta</string>
+    <string name="title_detalle_mascota">Detalle mascota</string>
+    <string name="title_activity_configurar_cuenta">Configurar Cuenta</string>
+    <string name="title_activity_acerca_de">Acerca De</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="texto_bio1">Guillermo Garcia</string>
+    <string name="texto_bio2">22 años. Estudiante de Ingenieria de Telecomunicaciones</string>
+
+
+    <string name="hint_nombre">Nombre:</string>
+    <string name="hint_email">Email:</string>
+    <string name="hint_mensaje">Mensaje:</string>
+    <string name="hint_configurar_cuenta">Usuario:</string>
+
+    <string name="shared_preferences_nombre_archivo">preferences</string>
+    <string name="shared_preferences_usuario">usuario</string>
+    <string name="cuenta_por_defecto">perritocollie</string>
+
+    <string name="boton_enviar">Enviar</string>
+    <string name="boton_acceder">Acceder</string>
+
+    <string name="EMAIL">emailprueba@gmail.com</string>
+    <string name="PASSWORD">123456789</string>
+
+
+    <string name="mensaje_error_mascota">No hay información</string>
+    <string name="mensaje_mascota_vacia">No hay mascotas</string>
+
+    <string name="mensaje_api_error">Algo ha fallado, vuelva a intentarlo</string>
+    <string name="mensaje_vacio">Introduce un usuario</string>
+    <string name="mensaje_usuario_no_valido">Este usuario no existe</string>
+
+</resources>

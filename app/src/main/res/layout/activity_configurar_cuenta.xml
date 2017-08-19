@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.guill.petagram.ConfigurarCuenta">
+
+    <include layout="@layout/toolbar" android:id="@+id/tbMain" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/tbMain"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tvConfigurarCuenta"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_configurar_cuenta"
+            android:layout_gravity="center_horizontal|top"
+            android:textSize="@dimen/nombre_contacto"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/configurar_cuenta_usuario"
+            android:layout_gravity="center_horizontal|center_vertical">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/etCuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_configurar_cuenta"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnAcceder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="@string/boton_acceder"
+            android:theme="@style/AppRaisedButton"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

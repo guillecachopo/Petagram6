@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/toolbar" android:id="@+id/tbMain" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbMain">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/cvMascotaDetalle"
+            android:layout_width="350dp"
+            android:layout_height="380dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            card_view:cardCornerRadius="@dimen/card_view_radius"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/layout_horizontal_margin"
+
+                >
+
+                <ImageView
+                    android:id="@+id/imgFotoDetalle"
+                    android:layout_width="320dp"
+                    android:layout_height="310dp"
+                    android:src="@drawable/ic_collie" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/tvLikesDetalle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/imgBone"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/btn_like_counter"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
